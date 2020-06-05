@@ -50,6 +50,7 @@ namespace TEST.Controllers
             return View("CustomerForm", viewModel);
         }
 
+
         public ActionResult New()
         {
             var membershipTypes = _context.MembershipTypes.ToList();
